@@ -343,6 +343,7 @@ export default function TabLayout({
         setShowSearchResults(false)
         setSearchQuery("")
         setSearchResults([])
+        setMobileMenuOpen(false)
       }
     }
 
@@ -860,8 +861,15 @@ export default function TabLayout({
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden fixed inset-0 z-50 bg-black bg-opacity-50">
-            <div className="bg-card w-64 h-full border-r border-border">
+          <div
+            className="md:hidden fixed inset-0 z-50 bg-black/50"
+            onClick={() => setMobileMenuOpen(false)}
+            role="presentation"
+          >
+            <div
+              className="bg-card w-64 max-w-[85vw] h-full border-r border-border"
+              onClick={(e) => e.stopPropagation()}
+            >
               <div className="p-4 border-b border-border">
                 <div className="flex items-center justify-between">
                   <span className="font-mono text-sm font-medium text-foreground">NAVIGATION</span>
@@ -975,7 +983,7 @@ export default function TabLayout({
         )}
 
         {/* Content Area */}
-        <div className="flex-1 flex flex-col overflow-hidden min-w-0">
+        <div className="flex-1 flex flex-col overflow-auto min-h-0 min-w-0">
           {children}
         </div>
       </div>
