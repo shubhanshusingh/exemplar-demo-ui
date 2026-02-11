@@ -1,0 +1,192 @@
+{
+  "tabs": {
+    "chat": {
+      "enabled": true,
+      "label": "CO_PILOT",
+      "icon": "Bot",
+      "description": "AI-powered operations assistant for day2 operations, service health monitoring, and natural language commands"
+    },
+    "insights": {
+      "enabled": true,
+      "label": "ENGINEERING_INSIGHTS",
+      "icon": "BarChart3",
+      "expandByDefault": true,
+      "description": "Data-driven engineering metrics, team productivity, cost analysis, and compliance monitoring",
+      "subtabs": {
+        "overview": {
+          "enabled": true,
+          "label": "OVERVIEW",
+          "icon": "BarChart3",
+          "description": "Comprehensive engineering dashboard with key metrics and team performance insights"
+        },
+        "productivity": {
+          "enabled": true,
+          "label": "PRODUCTIVITY",
+          "icon": "TrendingUp",
+          "description": "Team velocity, story points, and development productivity metrics and trends"
+        },
+        "cost": {
+          "enabled": true,
+          "label": "COST",
+          "icon": "DollarSign",
+          "description": "Infrastructure cost analysis, optimization recommendations, and budget tracking"
+        },
+        "compliance": {
+          "enabled": true,
+          "label": "COMPLIANCE",
+          "icon": "Shield",
+          "description": "Security compliance, policy enforcement, and regulatory requirement monitoring"
+        },
+        "scorecard": {
+          "enabled": true,
+          "label": "SCORECARD",
+          "icon": "Target",
+          "description": "Define software standards and track compliance with quality, security, and velocity scorecards"
+        }
+      }
+    },
+    "catalog": {
+      "enabled": true,
+      "label": "CATALOG",
+      "icon": "Layers",
+      "description": "Service discovery, health monitoring, dependency mapping, and operational insights for all services"
+    },
+    "approvals": {
+      "enabled": true,
+      "label": "APPROVALS",
+      "icon": "CheckCircle",
+      "description": "Workflow approvals, request management, and approval gate configuration for self-service actions"
+    },
+    "self-service": {
+      "enabled": true,
+      "label": "SELF_SERVICE",
+      "icon": "Zap",
+      "expandByDefault": true,
+      "description": "Automated workflows, infrastructure provisioning, and self-service actions for developers",
+      "subtabs": {
+        "actions": {
+          "enabled": true,
+          "label": "ACTIONS",
+          "icon": "Zap",
+          "description": "Execute self-service actions like creating Kafka topics, GitHub secrets, and databases"
+        },
+        "create-action": {
+          "enabled": true,
+          "label": "CREATE_ACTION",
+          "icon": "Plus",
+          "description": "Build and configure new self-service actions and workflows with approval gates"
+        },
+        "developer-workflows": {
+          "enabled": true,
+          "label": "DEVELOPER_WORKFLOWS",
+          "icon": "Workflow",
+          "description": "Automated developer workflows for scaffolding, deployment, and CI/CD pipelines"
+        }
+      }
+    },
+    "portal": {
+      "enabled": true,
+      "label": "PORTAL",
+      "icon": "Users",
+      "expandByDefault": true,
+      "description": "Developer portal management, onboarding, golden paths, and knowledge base",
+      "subtabs": {
+        "onboarding": {
+          "enabled": true,
+          "label": "ONBOARDING",
+          "icon": "Users",
+          "description": "Streamline developer onboarding with automated setup and access provisioning"
+        },
+        "golden-paths": {
+          "enabled": true,
+          "label": "GOLDEN_PATHS",
+          "icon": "GitBranch",
+          "description": "Standardized development patterns and best practices for consistent service creation"
+        },
+        "knowledge-base": {
+          "enabled": true,
+          "label": "KNOWLEDGE_BASE",
+          "icon": "BookOpen",
+          "description": "Centralized documentation, runbooks, and operational knowledge for teams"
+        }
+      }
+    },
+    "integrations": {
+      "enabled": true,
+      "label": "INTEGRATIONS",
+      "icon": "Cloud",
+      "description": "Cloud-agnostic integrations with AWS, GCP, Azure, Kubernetes, and 78+ development tools",
+      "subtabs": {
+        "external": {
+          "enabled": true,
+          "label": "EXTERNAL_SERVICES",
+          "icon": "Settings",
+          "description": "Third-party service integrations, webhooks, and external API connections"
+        },
+        "cloud": {
+          "enabled": true,
+          "label": "CLOUD_INTEGRATION",
+          "icon": "Cloud",
+          "description": "Multi-cloud orchestration and management across GCP, AWS, and Azure"
+        },
+        "vault": {
+          "enabled": true,
+          "label": "VAULT_/_SECRETS",
+          "icon": "Lock",
+          "description": "Secure secret management, API keys, and credential storage with encryption"
+        }
+      }
+    },
+    "tech-radar": {
+      "enabled": true,
+      "label": "TECH_RADAR",
+      "icon": "Code",
+      "description": "Technology assessment, migration planning, and best practices for technology decisions"
+    },
+    "ai": {
+      "enabled": false,
+      "label": "AI",
+      "icon": "Bot",
+      "expandByDefault": true,
+      "description": "AI tools, prompt management, MCP integration, and intelligent automation capabilities",
+      "subtabs": {
+        "prompt-hub": {
+          "enabled": true,
+          "label": "PROMPT_HUB",
+          "icon": "Bot",
+          "description": "AI prompt templates, management, and optimization for consistent AI interactions"
+        },
+        "ai-memory": {
+          "enabled": true,
+          "label": "AI_MEMORY",
+          "icon": "Database",
+          "description": "Persistent AI context, conversation history, and learning from past interactions"
+        },
+        "ai-guardrails": {
+          "enabled": true,
+          "label": "AI_GUARDRAILS",
+          "icon": "Shield",
+          "description": "AI safety controls, content filtering, and compliance enforcement for AI operations"
+        },
+        "human-in-loop": {
+          "enabled": true,
+          "label": "HUMAN_IN_LOOP",
+          "icon": "Users",
+          "description": "Human oversight and approval workflows for AI-generated actions and decisions"
+        }
+      }
+    },
+    "tools": {
+      "enabled": true,
+      "label": "UTILITIES",
+      "icon": "Wrench",
+      "description": "Developer utilities, debugging tools, and operational helpers for daily development tasks"
+    },
+    "account-settings": {
+      "enabled": true,
+      "label": "ACCOUNT_SETTINGS",
+      "icon": "Settings",
+      "description": "User profile management, API keys, preferences, and account configuration"
+    }
+  }
+}
